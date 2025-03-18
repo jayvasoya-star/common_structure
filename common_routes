@@ -1,0 +1,23 @@
+import 'package:go_router/go_router.dart';
+
+class Navigation {
+  static Future<Object?> push({
+    required String routeName,
+    Object? extra,
+  }) async {
+    Object? returnObject =
+        await navigatorKey.currentContext?.push(routeName, extra: extra);
+    return returnObject;
+  }
+
+  void pop() {
+    navigatorKey.currentContext?.pop();
+  } 
+
+  void pushReplacement({
+    required String routeName,
+    Object? extra,
+  }) {
+    navigatorKey.currentContext?.pushReplacement(routeName, extra: extra);
+  }
+}
