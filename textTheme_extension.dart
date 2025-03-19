@@ -1,42 +1,44 @@
+import 'package:flutter/material.dart';
+
 extension TextThemeExtension on TextTheme {
 
-  TextStyle get heading1Bold => displayMedium!.copyWith(
+  TextStyle get heading1Bold => displayLarge!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w700,
         fontSize: 60.sp,
       );
-  TextStyle get heading1Semi => displayMedium!.copyWith(
+  TextStyle get heading1Semi => displayLarge!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w600,
         fontSize: 60.sp,
       );
-  TextStyle get heading1Medium => displayMedium!.copyWith(
+  TextStyle get heading1Medium => displayLarge!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w500,
         fontSize: 60.sp,
       );
-  TextStyle get heading1Regular => displayMedium!.copyWith(
+  TextStyle get heading1Regular => displayLarge!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w400,
         fontSize: 60.sp,
       );
 
-  TextStyle get heading2Bold => displayMedium!.copyWith(
+  TextStyle get heading2Bold => displayLarge!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w700,
         fontSize: 48.sp,
       );
-  TextStyle get heading2Semi => displayMedium!.copyWith(
+  TextStyle get heading2Semi => displayLarge!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w600,
         fontSize: 48.sp,
       );
-  TextStyle get heading2Medium => displayMedium!.copyWith(
+  TextStyle get heading2Medium => displayLarge!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w500,
         fontSize: 48.sp,
       );
-  TextStyle get heading2Regular => displayMedium!.copyWith(
+  TextStyle get heading2Regular => displayLarge!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w400,
         fontSize: 48.sp,
@@ -45,22 +47,22 @@ extension TextThemeExtension on TextTheme {
   TextStyle get heading3Bold => displayMedium!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w700,
-        fontSize: 36.sp,
+        fontSize: 46.sp,
       );
   TextStyle get heading3Semi => displayMedium!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w600,
-        fontSize: 36.sp,
+        fontSize: 46.sp,
       );
   TextStyle get heading3Medium => displayMedium!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w500,
-        fontSize: 36.sp,
+        fontSize: 46.sp,
       );
   TextStyle get heading3Regular => displayMedium!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w400,
-        fontSize: 36.sp,
+        fontSize: 46.sp,
       );
 
   TextStyle get heading4Bold => displayMedium!.copyWith(
@@ -84,43 +86,43 @@ extension TextThemeExtension on TextTheme {
         fontSize: 24.sp,
       );
 
-  TextStyle get heading5Bold => displayMedium!.copyWith(
+  TextStyle get heading5Bold => displaySmall!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w700,
         fontSize: 20.sp,
       );
-  TextStyle get heading5Semi => displayMedium!.copyWith(
+  TextStyle get heading5Semi => displaySmall!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w600,
         fontSize: 20.sp,
       );
-  TextStyle get heading5Medium => displayMedium!.copyWith(
+  TextStyle get heading5Medium => displaySmall!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w500,
         fontSize: 20.sp,
       );
-  TextStyle get heading5Regular => displayMedium!.copyWith(
+  TextStyle get heading5Regular => displaySmall!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w400,
         fontSize: 20.sp,
       );
 
-  TextStyle get heading6Bold => displayMedium!.copyWith(
+  TextStyle get heading6Bold => displaySmall!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w700,
         fontSize: 16.sp,
       );
-  TextStyle get heading6Semi => displayMedium!.copyWith(
+  TextStyle get heading6Semi => displaySmall!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w600,
         fontSize: 16.sp,
       );
-  TextStyle get heading6Medium => displayMedium!.copyWith(
+  TextStyle get heading6Medium => displaySmall!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w500,
         fontSize: 16.sp,
       );
-  TextStyle get heading6Regular => displayMedium!.copyWith(
+  TextStyle get heading6Regular => displaySmall!.copyWith(
         color: appColors.neutral1Color,
         fontWeight: FontWeight.w400,
         fontSize: 16.sp,
