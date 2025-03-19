@@ -5,16 +5,16 @@ class AppColors {
     loadColor(true);
   }
 
-  final Color _primaryColor = const Color(0xFF6200EE);
-  final Color _secondaryColor = const Color(0xFF03DAC6);
-  final Color _neutralColor = const Color(0xFF000000);
-  final Color _backgroundColor = const Color(0xFFF5F5F5);
-  final Color _whiteColor = const Color(0xFFF5F5F5);
+  final Color _primaryColor = Color(0xFF6200EE);
+  final Color _secondaryColor = Color(0xFF03DAC6);
+  final Color _neutralColor =  Color(0xFF000000);
+  final Color _backgroundColor = Color(0xFFF5F5F5);
+  final Color _whiteColor = Color(0xFFF5F5F5);
   final Color _transparentColor = Colors.transparent;
-  final Color _greyColor = const Color(0xFF9E9E9E);
-  final Color _redColor = const Color(0xFFE53935);
-  final Color _greenColor = const Color(0xFF43A047);
-  final Color _blueColor = const Color(0xFF1E88E5);
+  final Color _greyColor = Color(0xFF9E9E9E);
+  final Color _redColor = Color(0xFFE53935);
+  final Color _greenColor = Color(0xFF43A047);
+  final Color _blueColor =  Color(0xFF1E88E5);
 
   late Color primary1Color;
   late Color primary2Color;
@@ -57,6 +57,7 @@ class AppColors {
   late Color white4Color;
   late Color white5Color;
   late Color white6Color;
+  
 
   void loadColor(bool color) {
     if (color) {
